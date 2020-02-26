@@ -1,0 +1,18 @@
+alias ll="ls -lhF"
+alias la="ls -lAhF"
+alias ..="cd .."
+
+alias work="cd /Users/nik/git/work/"
+alias teach="cd /Users/nik/git/teach/"
+
+alias arestart="sudo apachectl -k restart"
+
+alias path='echo -e ${PATH//:/\\n}'
+
+alias gsu='git submodule update --init --recursive'
+alias mlpc='make local-publish-clear'
+
+# Docker
+alias dcd='docker-compose down'
+alias dcu='docker-compose up -d'
+alias dcb='docker-compose up -d --build'
